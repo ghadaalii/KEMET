@@ -121,10 +121,7 @@ Analyzes tour bookings, guide performance, and visitor engagement.
 
 - SQL Server
 - SSRS (SQL Server Reporting Services)
-- T-SQL
 - Parameters & Expressions
 - Interactive Drill-Down Reports
 - KPI Cards
 - Charts & Data Visualization
-
----
