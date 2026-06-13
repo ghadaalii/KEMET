@@ -596,13 +596,13 @@ Business Insights & Decision Making
 
 ---
 
-# 📥 Download Dataset
-
 <div align="center">
 
-### Access the Complete Project Dataset
+## 📥 Download Dataset
 
-🔗 https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link
+<a href="https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link">
+  <img src="https://img.shields.io/badge/Download-Dataset-blue?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download Dataset"/>
+</a>
 
 </div>
 
