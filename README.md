@@ -427,25 +427,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ![Museum Overview](Dashboards/Museum%20Overview.png)
 
-## Payment Behaviour
 
-![Payment Behaviour](./Dashboards/Payment%20Pehaviour.png)
-
-## Hall Operation
-
-![Hall Operation](Dashboards/Hall%20Operation.png)
-
-## Cultural Heritage
-
-![Cultural Heritage](Dashboards/Cultural%20Heritage%20.png)
-
-## Customer Loyalty
-
-![Customer Loyalty](Dashboards/Customer%20Loyality.png)
-
-## Events Performance
-
-![Events Performance](Dashboards/Events%20Performance%20.png)
 
 ---
 
