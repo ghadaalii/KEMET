@@ -354,11 +354,11 @@ The reporting layer provides operational and analytical reports for decision-mak
 
 ### Visitor Analysis Report
 
-![Visitor Analysis](SSRS/Museum%20Visitor%20Analysis%20Report.png)
+![Museum Visitor Analysis Report](SSRS/Museum%20Visitor%20Analysis%20Report..jpeg)
 
 ### Tour Guide Performance Report
 
-![Tour Guide](SSRS/Tour%20Guide%20Performance%20Report.png)
+![Tour Guide Performance Report](SSRS/Tour%20Guide%20Performance%20Report.jpeg)
 
 ---
 
