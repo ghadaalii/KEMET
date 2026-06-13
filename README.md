@@ -413,7 +413,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Executive Command Center
 
-![Executive Dashboard](Dashboards/Executive%20command%20center.png)
+![Executive Dashboard](./Dashboards/Exectutive%20command%20center.png)
 
 ## Geography Analysis
 
