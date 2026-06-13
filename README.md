@@ -332,12 +332,14 @@ An AI-powered conversational assistant designed to enable both visitors and stak
 - SQL Server
 - REST APIs
 
+## Chatbot Demonstration
 
-### Demo
+A complete demonstration of the KEMET Assistant chatbot can be viewed here:
 
-Watch the chatbot demonstration:
+🔗 **Watch Demo Video**
 
 https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing
+
 ---
 
 ## 📊 Business Insights Enabled
