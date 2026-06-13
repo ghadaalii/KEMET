@@ -445,7 +445,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Events Performance
 
-![Events](./Dashboards/Events%20Performance.png)
+![Events Performance](Dashboards/Events%20Performance%20.png)
 
 ---
 
