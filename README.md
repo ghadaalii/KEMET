@@ -484,7 +484,7 @@ The chatbot is connected directly to the museum database and provides real-time 
 ### 👥 Visitor Experience
 
 <p align="center">
-  <img src="Chatbot/Chatbot1.jpeg" width="90%">
+  <img src="Chatbot/visitorMode.png" width="90%">
 </p>
 
 The chatbot provides an intuitive interface for visitors to explore museums, tours, events, ticket information, and museum services through natural language interactions.
