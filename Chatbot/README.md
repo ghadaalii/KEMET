@@ -8,6 +8,16 @@ The assistant is directly connected to a SQL Server Data Warehouse and provides 
 
 ---
 
+## Demo
+
+🎥 Watch KEMET Assistant in Action
+
+A complete demonstration of the chatbot, including visitor interactions, dynamic pricing, recommendations, conversational memory, and admin analytics features, is available here:
+
+👉 [Watch Demo Video](https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing)
+
+---
+
 # Project Motivation
 
 Museum information is often scattered across multiple systems and interfaces. Visitors typically need to browse several pages to find simple information such as:
