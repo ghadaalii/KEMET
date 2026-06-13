@@ -335,9 +335,9 @@ An AI-powered conversational assistant designed to enable both visitors and stak
 
 ### Demo
 
-🎥 Watch the chatbot demonstration:
+Watch the chatbot demonstration:
 
-👉 https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing
+https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing
 ---
 
 ## 📊 Business Insights Enabled
