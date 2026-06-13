@@ -332,7 +332,7 @@ An AI-powered conversational assistant designed to enable both visitors and stak
 - SQL Server
 - REST APIs
 
-## Chatbot Demonstration
+### Chatbot Demonstration
 
 A complete demonstration of the KEMET Assistant chatbot can be viewed here:
 
