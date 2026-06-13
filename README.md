@@ -475,6 +475,45 @@ The chatbot is connected directly to the museum database and provides real-time 
 > Click the button above to watch the chatbot demonstration video.
 
 ---
+## 📸 Chatbot Gallery
+
+### 👥 Visitor Experience
+
+<p align="center">
+  <img src="Chatbot/Chatbot1.jpeg" width="90%">
+</p>
+
+The chatbot provides an intuitive interface for visitors to explore museums, tours, events, ticket information, and museum services through natural language interactions.
+
+---
+
+### 🌍 Arabic & English Support
+
+<p align="center">
+  <img src="Chatbot/Chatbot4.jpeg" width="90%">
+</p>
+
+Supports bilingual conversations, allowing users to interact seamlessly in both Arabic and English.
+
+---
+
+### 🔐 Secure Admin Authentication
+
+<p align="center">
+  <img src="Chatbot/Chatbot2.jpeg" width="75%">
+</p>
+
+Role-based authentication ensures secure access to administrative analytics and business intelligence features.
+
+---
+
+### 📊 Analytics Assistant
+
+<p align="center">
+  <img src="Chatbot/Chatbot6.jpeg" width="90%">
+</p>
+
+The Admin Analytics Assistant is directly connected to the Data Warehouse, enabling stakeholders to query KPIs, revenue statistics, booking performance, guide workload, language coverage, and operational insights using natural language.
 
 ---
 
