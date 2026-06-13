@@ -24,13 +24,17 @@ An Enterprise-Scale Business Intelligence Platform Designed to Analyze, Monitor,
 
 # 👥 Project Team
 
-| Member | Profile |
-|----------|----------|
-| Shrouk Ehab | [![GitHub](https://img.shields.io/badge/GitHub-shroukehabsabry-181717?style=for-the-badge&logo=github)](https://github.com/shroukehabsabry) |
-| Nouran Yasser | [![GitHub](https://img.shields.io/badge/GitHub-nouranyasser-181717?style=for-the-badge&logo=github)](https://github.com/nouranyasser) |
-| Noha Ahmed | [![GitHub](https://img.shields.io/badge/GitHub-NohaAhmed238-181717?style=for-the-badge&logo=github)](https://github.com/NohaAhmed238) |
-| Ghada Ali | [![GitHub](https://img.shields.io/badge/GitHub-ghadaalii-181717?style=for-the-badge&logo=github)](https://github.com/ghadaalii) |
-| Basmala Khaled | [![GitHub](https://img.shields.io/badge/GitHub-Basmalakh22-181717?style=for-the-badge&logo=github)](https://github.com/Basmalakh22) |
+<div align="center">
+
+| Team Member | GitHub | LinkedIn | Email |
+|:---:|:---:|:---:|:---:|
+| **Shrouk Ehab** | <a href="https://github.com/shroukehabsabry"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"></a> | — | — |
+| **Nouran Yasser** | <a href="https://github.com/nouranyasser"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"></a> | <a href="https://www.linkedin.com/in/nouran-yasser-582450280"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a> | <a href="mailto:nourany743@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"></a> |
+| **Noha Ahmed** | <a href="https://github.com/NohaAhmed238"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"></a> | <a href="https://www.linkedin.com/in/noha-ahmed-98798a2a3/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a> | <a href="mailto:nohaahmed.eng@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"></a> |
+| **Ghada Ali** | <a href="https://github.com/ghadaalii"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"></a> | <a href="https://www.linkedin.com/in/ghadaabobakr/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a> | <a href="mailto:ghadaabobakrr@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"></a> |
+| **Basmala Khaled** | <a href="https://github.com/Basmalakh22"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"></a> | <a href="https://www.linkedin.com/in/basmalakha22"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a> | <a href="mailto:basmalakha772@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"></a> |
+
+</div>
 ---
 
 # 📖 Overview
