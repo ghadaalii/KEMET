@@ -429,7 +429,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Payment Behaviour
 
-![Payment Behaviour](Dashboards/Payment%20Behaviour.png)
+![Payment Behaviour](./Dashboards/Payment%20Pehaviour.png)
 
 ## Hall Operation
 
@@ -437,7 +437,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Cultural Heritage
 
-![Cultural Heritage](Dashboards/Cultural%20Heritage.png)
+![Cultural Heritage](./Dashboards/Cultural%20Heritage.png)
 
 ## Customer Loyalty
 
@@ -445,7 +445,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Events Performance
 
-![Events](Dashboards/Events%20Performance.png)
+![Events](./Dashboards/Events%20Performance.png)
 
 ---
 
