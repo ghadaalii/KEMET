@@ -1,424 +1,24 @@
 # 🏛️ KEMET – Egyptian Museums Management & Analytics Platform
 
-Developed by **Shrouk Ehab, Nouran, Yasser, Noha Ahmed, Basmala Khaled, and Ghada Ali**
+<div align="center">
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
-![SSIS](https://img.shields.io/badge/SSIS-ETL-blue)
-![SSRS](https://img.shields.io/badge/SSRS-Reporting-green)
-![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-brightgreen)
+### Transforming Egyptian Museum Operations into Actionable Insights
 
----
+End-to-End Business Intelligence Solution for Egyptian Museums
 
-## 📖 Overview
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![SSIS](https://img.shields.io/badge/SSIS-0078D4?style=for-the-badge)
+![SSRS](https://img.shields.io/badge/SSRS-CC2927?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-KEMET is an end-to-end Business Intelligence and Analytics platform designed to support the management and analysis of Egyptian museums through data-driven decision-making.
+<br>
 
-The project simulates a nationwide museum ecosystem, covering museum visits, guided tours, cultural events, visitors, artifacts, halls, pricing systems, payments, and operational performance.
+### 🇪🇬 Preserving History Through Data
 
-The solution transforms raw operational data into meaningful business insights through a complete BI pipeline consisting of:
+An Enterprise-Scale Business Intelligence Platform Designed to Analyze, Monitor, and Optimize Egyptian Museum Operations.
 
-- Data Generation
-- OLTP Database
-- ETL Process (SSIS)
-- Data Warehouse (Galaxy Schema)
-- SSRS Reporting
-- Power BI Dashboards
-- AI-Powered Analytics Chatbot
-
----
-
-## 🎯 Project Objectives
-
-- Centralize museum operational data.
-- Analyze visitor demographics and behavior.
-- Monitor museum performance.
-- Track revenue and profitability.
-- Evaluate event and tour performance.
-- Support strategic decision-making.
-- Deliver interactive analytics and KPIs.
-- Enable natural language analytics through AI.
-
----
-
-## 🏗️ Solution Architecture
-
-```text
-Generated Data
-       │
-       ▼
-SQL Server OLTP Database
-       │
-       ▼
-SSIS ETL Process
-       │
-       ▼
-Data Warehouse (Galaxy Schema)
-       │
- ┌─────┼─────┐
- ▼     ▼     ▼
-SSRS  Power BI  AI Chatbot
-Reports Dashboards Analytics
-```
-
----
-
-## 📂 Project Structure
-
-```text
-KEMET
-│
-├── Data
-│   ├── Generated Datasets
-│   └── Data Documentation
-│
-├── Database
-│   ├── ERD
-│   ├── Database Scripts
-│   └── OLTP Design
-│
-├── SSIS
-│   ├── ETL Packages
-│   ├── Dimension Loads
-│   ├── Fact Loads
-│   └── SCD Processes
-│
-├── DWH
-│   ├── Galaxy Schema
-│   ├── Fact Tables
-│   ├── Dimension Tables
-│   └── Bridge Tables
-│
-├── SSRS
-│   └── Analytical Reports
-│
-├── Power BI
-│   ├── Dashboards
-│   ├── Measures
-│   └── Data Model
-│
-├── Chatbot
-│   ├── Backend API
-│   ├── SQL Integration
-│   └── Natural Language Queries
-│
-└── Documentation
-```
-
----
-
-## 📊 Dataset Overview
-
-The project uses large-scale simulated data representing Egyptian museum operations from **2021–2026**.
-
-| Dataset | Rows |
-|----------|---------:|
-| Visitor | 2,300,000 |
-| MuseumBooking | 5,000,000 |
-| TourBooking | 3,000,000 |
-| EventBooking | 2,500,000 |
-| Museum | 72 |
-| Hall | 720 |
-| Artifact | 14,400 |
-| Guide | 4,060 |
-| Tour | 656 |
-| Event | 500 |
-| Pricing | 3,240 |
-
-### Total Records
-
-**17+ Million Records**
-
----
-
-## 🗄️ Operational Database (OLTP)
-
-The OLTP database was designed to manage daily museum operations while ensuring data integrity and minimizing redundancy.
-
-### Core Entities
-
-- Museum
-- Hall
-- Artifact
-- Visitor
-- MuseumBooking
-- Tour
-- TourBooking
-- Event
-- EventBooking
-- Guide
-- Language
-- Pricing
-- Payment
-
-### Design Features
-
-- Fully normalized structure
-- Primary & Foreign Keys
-- Business Rule Enforcement
-- High scalability
-- Optimized transactional performance
-
----
-
-## 🔄 ETL Process (SSIS)
-
-The ETL layer was developed using SQL Server Integration Services (SSIS) to transfer data from the OLTP database into the analytical warehouse.
-
-### ETL Workflow
-
-1. Extract source data.
-2. Clean and validate records.
-3. Apply business transformations.
-4. Generate surrogate keys.
-5. Implement Slowly Changing Dimensions (SCD).
-6. Load dimension tables.
-7. Load bridge tables.
-8. Load fact tables.
-9. Perform validation and auditing checks.
-
-### ETL Features
-
-- Lookup Transformations
-- Data Cleansing
-- Error Handling
-- SCD Implementation
-- Incremental Loading
-- Data Validation
-- Audit Tracking
-
----
-## 🏛️ Data Warehouse (DWH)
-
-The KEMET Data Warehouse combines both **Galaxy Schema** and **Snowflake Schema** designs to balance analytical performance, scalability, and normalization.
-
-### Galaxy Schema Components
-
-The Galaxy Schema serves as the core analytical model by sharing dimensions across multiple fact tables.
-
-#### Fact Tables
-
-- FactMuseumBooking
-- FactTourBooking
-- FactEventBooking
-
-#### Shared Dimensions
-
-- DimDate
-- DimTime
-- DimMuseum
-- DimVisitor
-- DimTicket
-- DimPricing
-- DimPayment
-
----
-
-### Snowflake Schema Components
-
-Several dimensions were further normalized to reduce redundancy and improve maintainability.
-
-#### Snowflaked Dimensions
-
-- DimMuseum
-- DimGuide
-- DimArtifact
-- DimLocation
-- DimLanguage
-
----
-
-### Bridge Tables
-
-- BridgeGuideLanguage
-- BridgeMuseumService
-
----
-
-### Warehouse Features
-
-- Galaxy Schema Design
-- Snowflake Schema Design
-- Historical Analysis
-- Shared Dimensions
-- Surrogate Keys
-- Slowly Changing Dimensions (SCD)
-- Enterprise Analytics Support
-- Optimized Query Performance
-- Scalable Architecture
-
-
----
-
-## 📋 SSRS Reports
-
-The reporting layer provides operational and analytical reports for business users.
-
-### Reports Included
-
-- Revenue Summary Report
-- Visitor Analysis Report
-- Event Performance Report
-- Museum Performance Report
-- Tour Analysis Report
-- Payment Analysis Report
-
-### Reporting Features
-
-- Interactive Parameters
-- Filtering & Sorting
-- Aggregated KPIs
-- Drill-Down Capabilities
-- Export to PDF and Excel
-
----
-
-## 📈 Power BI Dashboards
-
-The project includes **20 interactive dashboards** designed to provide comprehensive insights across all museum operations.
-
-### Dashboard Categories
-
-- Executive Overview
-- Revenue Analysis
-- Visitor Segmentation
-- Museum Performance
-- Event Analytics
-- Tour Analytics
-- Payment Behavior
-- Crowd Control
-- Language Coverage
-- Nationality Behavior
-- Group Experience
-- Hall Utilization
-- Cultural Heritage Insights
-- Loyalty & Repeat Visitors
-- Staff Overview
-- Pricing & Discounts
-- Geography Analysis
-- Ticket Type Analysis
-- Ticket Class Analysis
-- Museums Overview
-- Tour Business Analysis
-
-### Dashboard Features
-
-- Bookmarks
-- Drill Through
-- Drill Down
-- Dynamic KPIs
-- Advanced DAX Measures
-- Responsive Design
-
----
-
-## 🤖 AI Analytics Chatbot
-
-An AI-powered conversational assistant designed to enable both visitors and stakeholders to interact with Egyptian museum data using natural language. The chatbot is directly integrated with the SQL Server Data Warehouse and provides accurate, data-driven responses for museums, tours, events, guides, pricing, and analytics.
-
-### Features
-
-- Arabic & English Support
-- Revenue Queries
-- Visitor Insights
-- Museum Performance Analysis
-- Dashboard Navigation Assistance
-- Real-Time Data Retrieval
-
-### Technologies
-
-- Node.js
-- Express.js
-- SQL Server
-- REST APIs
-
-### Chatbot Demonstration
-
-A complete demonstration of the KEMET Assistant chatbot can be viewed here:
-
-🔗 **Watch Demo Video**
-
-https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing
-
----
-
-## 📊 Business Insights Enabled
-
-The platform supports analysis of:
-
-- Revenue Performance
-- Visitor Demographics
-- Nationality Trends
-- Tour Occupancy
-- Event Attendance
-- Guide Performance
-- Payment Behavior
-- Museum Utilization
-- Crowd Management
-- Visitor Loyalty
-- Language Coverage
-- Cultural Heritage Analytics
-
----
-
-## 🛠️ Technology Stack
-
-### Database
-- SQL Server
-
-### Data Warehouse
-- Galaxy Schema
-- Dimensional Modeling
-
-### ETL
-- SSIS
-
-### Reporting
-- SSRS
-
-### Business Intelligence
-- Power BI
-- DAX
-- Power Query
-
-### Data Generation
-- Chat GPT & REAL SOURCE
-
-### Version Control
-- Git
-- GitHub
-
----
-
-## 🚀 End-to-End Workflow
-
-```text
-Data Generation
-        ↓
-OLTP Database
-        ↓
-ETL (SSIS)
-        ↓
-Data Warehouse
-        ↓
-SSRS Reports
-        ↓
-Power BI Dashboards
-        ↓
-AI Chatbot
-        ↓
-Business Insights & Decision Making
-```
-
----
-
-## 📥 Download Dataset
-
-The complete datasets used in this project can be downloaded from:
-
-🔗 **Dataset Download**
-
-https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link
+</div>
 
 ---
 
@@ -434,13 +34,569 @@ https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive
 
 ---
 
-## ⭐ Project Highlights
+# 📖 Overview
 
-- End-to-End Business Intelligence Solution
-- 17+ Million Records
-- Complete ETL Pipeline
-- Enterprise Data Warehouse
-- Interactive Power BI Dashboards
-- AI-Powered Analytics Chatbot
-- Realistic Egyptian Museum Ecosystem
-- Full BI Lifecycle Implementation
+KEMET is an end-to-end Business Intelligence and Analytics platform developed to support Egyptian museums through data-driven decision-making.
+
+The project simulates a nationwide museum ecosystem covering:
+
+- Museum Operations
+- Visitor Management
+- Guided Tours
+- Cultural Events
+- Museum Artifacts
+- Museum Halls
+- Pricing Strategies
+- Revenue Tracking
+- Payment Analysis
+- Operational Performance
+
+The platform transforms raw operational data into strategic business insights through a complete BI pipeline.
+
+---
+
+# 🎯 Project Objectives
+
+- Centralize museum operational data.
+- Analyze visitor demographics and behavior.
+- Monitor museum performance.
+- Measure revenue and profitability.
+- Track event and tour success.
+- Improve operational efficiency.
+- Support strategic decision-making.
+- Enable self-service analytics.
+- Provide AI-powered natural language insights.
+
+---
+
+# 🏗️ Solution Architecture
+
+```text
+Generated Data
+       │
+       ▼
+SQL Server OLTP Database
+       │
+       ▼
+SSIS ETL Process
+       │
+       ▼
+Data Warehouse
+(Galaxy + Snowflake Schema)
+       │
+ ┌─────┼─────┐
+ ▼     ▼     ▼
+SSRS  Power BI  AI Chatbot
+Reports Dashboards Analytics
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+KEMET
+│
+├── Data
+│   ├── Generated Datasets
+│   ├── Data Dictionary
+│   └── Documentation
+│
+├── ERD
+│   ├── Final ERD
+│   └── Database Design
+│
+├── Mapping
+│   ├── Source-To-Target Mapping
+│   └── ETL Documentation
+│
+├── DWH
+│   ├── Galaxy Schema
+│   ├── Snowflake Schema
+│   ├── Fact Tables
+│   ├── Dimension Tables
+│   └── Bridge Tables
+│
+├── SSIS
+│   ├── ETL Packages
+│   ├── Fact Loads
+│   ├── Dimension Loads
+│   └── SCD Processes
+│
+├── SSRS
+│   ├── Operational Reports
+│   └── Analytical Reports
+│
+├── Dashboards
+│   ├── Power BI Dashboards
+│   └── KPI Analysis
+│
+├── Chatbot
+│   ├── Backend API
+│   ├── SQL Integration
+│   └── Analytics Assistant
+│
+└── Presentation
+```
+
+---
+
+# 📊 Dataset Overview
+
+The project uses large-scale simulated datasets representing Egyptian museum operations from 2021–2026.
+
+| Dataset | Records |
+|----------|----------:|
+| Visitor | 2,300,000 |
+| Museum Booking | 5,000,000 |
+| Tour Booking | 3,000,000 |
+| Event Booking | 2,500,000 |
+| Museum | 72 |
+| Hall | 720 |
+| Artifact | 14,400 |
+| Guide | 4,060 |
+| Tour | 656 |
+| Event | 500 |
+| Pricing | 3,240 |
+
+### Total Dataset Size
+
+### 🚀 17+ Million Records
+
+---
+
+# 🗄️ Operational Database (OLTP)
+
+The OLTP database was designed to support daily museum operations while ensuring data integrity, scalability, and transactional efficiency.
+
+## Core Entities
+
+- Museum
+- Hall
+- Artifact
+- Visitor
+- MuseumBooking
+- Tour
+- TourBooking
+- Event
+- EventBooking
+- Guide
+- Language
+- Pricing
+- Payment
+
+## Database Features
+
+- Fully Normalized Design
+- Primary & Foreign Keys
+- Business Rule Enforcement
+- Referential Integrity
+- Optimized Transaction Processing
+- High Scalability
+
+---
+
+# 🧩 Entity Relationship Diagram (ERD)
+
+![ERD](ERD/final%20ERD.drawio.pdf)
+
+---
+
+# 🔄 ETL Process (SSIS)
+
+The ETL layer was developed using SQL Server Integration Services (SSIS) to move data from the operational database into the analytical warehouse.
+
+## ETL Workflow
+
+1. Extract Source Data
+2. Validate Data
+3. Clean Data
+4. Transform Records
+5. Generate Surrogate Keys
+6. Load Dimensions
+7. Load Bridge Tables
+8. Load Facts
+9. Execute Validation Checks
+10. Audit & Logging
+
+## ETL Features
+
+- Lookup Transformations
+- Data Cleansing
+- Error Handling
+- Incremental Loading
+- Audit Tracking
+- SCD Implementation
+- Data Validation
+
+---
+
+## 📸 ETL Packages
+
+### Museum Booking Fact
+
+![Museum Fact](SSIS/MuseumFactB.png)
+
+### Tour Booking Fact
+
+![Tour Fact](SSIS/TourFactB.png)
+
+### Event Booking Fact
+
+![Event Fact](SSIS/EventFactB.png)
+
+---
+
+# 🏛️ Data Warehouse (DWH)
+
+The KEMET Data Warehouse combines both Galaxy Schema and Snowflake Schema approaches to balance performance, scalability, and maintainability.
+
+---
+
+## Galaxy Schema
+
+The Galaxy Schema serves as the primary analytical model and shares dimensions across multiple business processes.
+
+### Fact Tables
+
+- FactMuseumBooking
+- FactTourBooking
+- FactEventBooking
+
+### Shared Dimensions
+
+- DimDate
+- DimTime
+- DimMuseum
+- DimVisitor
+- DimTicket
+- DimPricing
+- DimPayment
+
+---
+
+## Snowflake Schema
+
+Selected dimensions were further normalized to reduce redundancy and improve maintainability.
+
+### Snowflaked Dimensions
+
+- DimMuseum
+- DimGuide
+- DimArtifact
+- DimLanguage
+- DimLocation
+
+---
+
+## Bridge Tables
+
+- BridgeGuideLanguage
+- BridgeMuseumService
+
+---
+
+## Warehouse Features
+
+- Galaxy Schema Design
+- Snowflake Schema Design
+- Shared Dimensions
+- Historical Analysis
+- Surrogate Keys
+- Slowly Changing Dimensions (SCD)
+- Enterprise Analytics Support
+- Optimized Query Performance
+- Scalable Architecture
+
+---
+
+## 🏗️ Warehouse Architecture
+
+> Full warehouse diagram is available inside the DWH folder.
+
+![Warehouse](DWH/warehouse_diagram.png)
+
+---
+
+# 📋 SSRS Reports
+
+The reporting layer provides operational and analytical reports for decision-makers and museum administrators.
+
+## Reports Included
+
+- Revenue Summary Report
+- Visitor Analysis Report
+- Museum Performance Report
+- Event Performance Report
+- Tour Guide Performance Report
+
+## Reporting Features
+
+- Interactive Parameters
+- Filtering & Sorting
+- KPI Aggregation
+- Drill Down
+- PDF Export
+- Excel Export
+
+---
+
+## 📸 SSRS Reports Gallery
+
+### Revenue Summary Report
+
+![Revenue Summary](SSRS/Revenue%20Summary%20Report.png)
+
+### Museum Performance Report
+
+![Museum Performance](SSRS/Museum%20Performance%20Report.png)
+
+### Visitor Analysis Report
+
+![Visitor Analysis](SSRS/Museum%20Visitor%20Analysis%20Report.png)
+
+### Tour Guide Performance Report
+
+![Tour Guide](SSRS/Tour%20Guide%20Performance%20Report.png)
+
+---
+
+# 📈 Power BI Dashboards
+
+The project includes 20 interactive dashboards providing a comprehensive view of museum operations.
+
+---
+
+## Dashboard Categories
+
+### Executive Analytics
+
+- Executive Command Center
+- Revenue Analysis
+- Museums Overview
+
+### Visitor Analytics
+
+- Visitor Segmentation
+- Customer Loyalty
+- Nationality Behaviour
+
+### Operational Analytics
+
+- Hall Utilization
+- Crowd Control
+- Museum Staff
+- Guide Performance
+
+### Business Analytics
+
+- Payment Behaviour
+- Pricing & Discounts
+- Ticket Type Analysis
+- Ticket Class Analysis
+
+### Experience Analytics
+
+- Event Performance
+- Tour Business
+- Group Experience
+- Language Coverage
+
+### Strategic Analytics
+
+- Cultural Heritage
+- Geography Analysis
+
+---
+
+# 📊 Dashboard Gallery
+
+## Executive Command Center
+
+![Executive Dashboard](Dashboards/Executive%20command%20center.png)
+
+## Geography Analysis
+
+![Geography](Dashboards/Geography.png)
+
+## Guide Performance
+
+![Guide Performance](Dashboards/Guide%20Performance.png)
+
+## Museum Overview
+
+![Museum Overview](Dashboards/Museum%20Overview.png)
+
+## Payment Behaviour
+
+![Payment Behaviour](Dashboards/Payment%20Behaviour.png)
+
+## Hall Operation
+
+![Hall Operation](Dashboards/Hall%20Operation.png)
+
+## Cultural Heritage
+
+![Cultural Heritage](Dashboards/Cultural%20Heritage.png)
+
+## Customer Loyalty
+
+![Customer Loyalty](Dashboards/Customer%20Loyality.png)
+
+## Events Performance
+
+![Events](Dashboards/Events%20Performance.png)
+
+---
+
+# 🤖 AI Analytics Chatbot
+
+An AI-powered analytics assistant was developed to allow users to interact with museum data using natural language.
+
+---
+
+## Features
+
+- Arabic & English Support
+- Revenue Queries
+- Visitor Analytics
+- Museum Performance Analysis
+- Dashboard Navigation Assistance
+- KPI Exploration
+- Real-Time Data Retrieval
+
+---
+
+## Technologies
+
+- Node.js
+- Express.js
+- SQL Server
+- REST APIs
+
+---
+
+# 📊 Business Insights Enabled
+
+The platform supports analysis of:
+
+- Revenue Performance
+- Visitor Demographics
+- Nationality Trends
+- Museum Popularity
+- Event Attendance
+- Tour Occupancy
+- Guide Performance
+- Payment Behaviour
+- Crowd Management
+- Language Coverage
+- Visitor Loyalty
+- Cultural Heritage Analytics
+
+---
+
+# 🛠️ Technology Stack
+
+## Database
+
+- SQL Server
+
+## Data Warehouse
+
+- Galaxy Schema
+- Snowflake Schema
+- Dimensional Modeling
+
+## ETL
+
+- SSIS
+
+## Reporting
+
+- SSRS
+
+## Business Intelligence
+
+- Power BI
+- DAX
+- Power Query
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+# 🚀 End-to-End Workflow
+
+```text
+Data Generation
+       ↓
+OLTP Database
+       ↓
+ETL (SSIS)
+       ↓
+Data Warehouse
+       ↓
+SSRS Reports
+       ↓
+Power BI Dashboards
+       ↓
+AI Analytics Chatbot
+       ↓
+Business Insights & Decision Making
+```
+
+---
+
+# 📥 Download Dataset
+
+<div align="center">
+
+### Access the Complete Project Dataset
+
+🔗 https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link
+
+</div>
+
+---
+
+# ⭐ Project Highlights
+
+✅ 17+ Million Records
+
+✅ Enterprise-Scale Data Warehouse
+
+✅ Galaxy & Snowflake Schema Design
+
+✅ Complete OLTP → DWH → BI Pipeline
+
+✅ Automated ETL using SSIS
+
+✅ Advanced SSRS Reporting
+
+✅ 20 Interactive Power BI Dashboards
+
+✅ Arabic & English AI Analytics Chatbot
+
+✅ End-to-End Business Intelligence Solution
+
+✅ Realistic Egyptian Museum Ecosystem
+
+---
+
+<div align="center">
+
+## 🏛️ KEMET
+
+### Preserving History Through Data
+
+⭐ If you found this project interesting, consider starring the repository.
+
+</div>
