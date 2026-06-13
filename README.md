@@ -314,7 +314,7 @@ The project includes **20 interactive dashboards** designed to provide comprehen
 
 ## 🤖 AI Analytics Chatbot
 
-An AI-powered chatbot was developed to allow users to interact with museum analytics using natural language.
+An AI-powered conversational assistant designed to enable both visitors and stakeholders to interact with Egyptian museum data using natural language. The chatbot is directly integrated with the SQL Server Data Warehouse and provides accurate, data-driven responses for museums, tours, events, guides, pricing, and analytics.
 
 ### Features
 
@@ -331,6 +331,14 @@ An AI-powered chatbot was developed to allow users to interact with museum analy
 - Express.js
 - SQL Server
 - REST APIs
+
+### Chatbot Demonstration
+
+A complete demonstration of the KEMET Assistant chatbot can be viewed here:
+
+🔗 **Watch Demo Video**
+
+https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view?usp=sharing
 
 ---
 

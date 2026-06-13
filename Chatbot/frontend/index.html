@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KEMET Assistant — Museums of Egypt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="chat-wrapper" id="chatWrapper">
+    <div class="chat-container">
+
+      <!-- Header -->
+      <div class="chat-header" id="chatHeader">
+        <div class="chat-header-inner">
+          <div class="header-icon">𓂀</div>
+          <div class="header-text">
+            <h1 id="headerTitle">KEMET Assistant</h1>
+            <p id="headerSubtitle">Museums of Egypt — AI Guide</p>
+          </div>
+          <!-- Mode Toggle Button -->
+          <div class="mode-toggle">
+            <button class="mode-btn visitor-btn active" id="visitorBtn" onclick="switchMode('visitor')">
+              🏛️ Visitor
+            </button>
+            <button class="mode-btn admin-btn" id="adminBtn" onclick="switchMode('admin')">
+              ⚙️ Admin
+            </button>
+          </div>
+        </div>
+        <div class="chat-header-glyphs" id="headerGlyphs">𓆣 𓋹 𓂋 𓁈 𓆣</div>
+        <div class="chat-header-strip"></div>
+      </div>
+
+      <!-- Admin Password Modal -->
+      <div class="admin-modal" id="adminModal">
+        <div class="admin-modal-box">
+          <div class="admin-modal-icon">⚙️</div>
+          <h2>Admin Access</h2>
+          <p>Enter the admin password to continue</p>
+          <input type="password" id="adminPassword" placeholder="Enter password..." />
+          <div class="admin-modal-buttons">
+            <button onclick="verifyAdmin()">Login</button>
+            <button class="cancel-btn" onclick="cancelAdmin()">Cancel</button>
+          </div>
+          <p class="admin-error" id="adminError"></p>
+        </div>
+      </div>
+
+      <!-- Messages Area -->
+      <div class="chat-messages" id="messages">
+        <div class="message assistant welcome-message" id="welcomeMsg">
+          <div class="welcome-icon">𓂀</div>
+          <div class="welcome-text">
+            <strong>Welcome to the Museums of Egypt!</strong><br>
+            I am KEMET, your personal AI guide. I can help you explore museums, find tours, check ticket prices, discover events, and connect you with expert guides.
+            <br><br>How can I help you today?
+          </div>
+        </div>
+        <div class="quick-replies" id="quickReplies">
+          <button class="quick-reply-btn" onclick="sendQuickReply('Tell me about available tours')">
+            <span>🗺️ Available Tours</span>
+          </button>
+          <button class="quick-reply-btn" onclick="sendQuickReply('What events are happening?')">
+            <span>🎭 Upcoming Events</span>
+          </button>
+          <button class="quick-reply-btn" onclick="sendQuickReply('I need a guide')">
+            <span>👤 Find a Guide</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="chat-input-area">
+        <input type="text" id="userInput" placeholder="Ask about museums, tickets, events..." />
+        <button onclick="sendMessage()" id="sendBtn">Send</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
