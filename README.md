@@ -437,7 +437,7 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 ## Cultural Heritage
 
-![Cultural Heritage](./Dashboards/Cultural%20Heritage.png)
+![Cultural Heritage](Dashboards/Cultural%20Heritage%20.png)
 
 ## Customer Loyalty
 
