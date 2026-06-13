@@ -198,7 +198,7 @@ The OLTP database was designed to support daily museum operations while ensuring
 
 # 🧩 Entity Relationship Diagram (ERD)
 
-![ERD](ERD/final%20ERD.drawio.pdf)
+![ERD](ERD/ERD.png)
 
 ---
 
