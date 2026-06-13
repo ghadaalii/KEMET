@@ -494,7 +494,7 @@ The chatbot provides an intuitive interface for visitors to explore museums, tou
 ### 🌍 Arabic & English Support
 
 <p align="center">
-  <img src="Chatbot/Chatbot4.jpeg" width="90%">
+  <img src="Chatbot/arabicLanguageSupport.jpeg" width="90%">
 </p>
 
 Supports bilingual conversations, allowing users to interact seamlessly in both Arabic and English.
