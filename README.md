@@ -514,7 +514,7 @@ Role-based authentication ensures secure access to administrative analytics and 
 ### 📊 Analytics Assistant
 
 <p align="center">
-  <img src="Chatbot/Chatbot6.jpeg" width="90%">
+  <img src="Chatbot/adminMode.jpeg" width="90%">
 </p>
 
 The Admin Analytics Assistant is directly connected to the Data Warehouse, enabling stakeholders to query KPIs, revenue statistics, booking performance, guide workload, language coverage, and operational insights using natural language.
