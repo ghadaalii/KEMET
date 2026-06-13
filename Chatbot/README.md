@@ -6,8 +6,6 @@ KEMET Assistant is an intelligent conversational chatbot developed as part of th
 
 The assistant is directly connected to a SQL Server Data Warehouse and provides accurate responses about museums, tours, events, ticket pricing, guides, and analytics through a hybrid architecture that combines Data Engineering, Prompt Engineering, and Artificial Intelligence.
 
----
-
 ## Demo
 
 🎥 Watch KEMET Assistant in Action
