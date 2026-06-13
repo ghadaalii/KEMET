@@ -22,16 +22,15 @@ An Enterprise-Scale Business Intelligence Platform Designed to Analyze, Monitor,
 
 ---
 
-## 👥 Project Team
+# 👥 Project Team
 
-| Team Member |
-|------------|
-| Shrouk Ehab |
-| Nouran Yasser |
-| Noha Ahmed |
-| Basmala Khaled |
-| Ghada Ali |
-
+| Member | Profile |
+|----------|----------|
+| Shrouk Ehab | [![GitHub](https://img.shields.io/badge/GitHub-shroukehabsabry-181717?style=for-the-badge&logo=github)](https://github.com/shroukehabsabry) |
+| Nouran Yasser | [![GitHub](https://img.shields.io/badge/GitHub-nouranyasser-181717?style=for-the-badge&logo=github)](https://github.com/nouranyasser) |
+| Noha Ahmed | [![GitHub](https://img.shields.io/badge/GitHub-NohaAhmed238-181717?style=for-the-badge&logo=github)](https://github.com/NohaAhmed238) |
+| Ghada Ali | [![GitHub](https://img.shields.io/badge/GitHub-ghadaalii-181717?style=for-the-badge&logo=github)](https://github.com/ghadaalii) |
+| Basmala Khaled | [![GitHub](https://img.shields.io/badge/GitHub-Basmalakh22-181717?style=for-the-badge&logo=github)](https://github.com/Basmalakh22) |
 ---
 
 # 📖 Overview
