@@ -598,11 +598,9 @@ Business Insights & Decision Making
 
 <div align="center">
 
-## 📥 Download Dataset
+# 📥 Download Dataset
 
-<a href="https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link">
-  <img src="https://img.shields.io/badge/Download-Dataset-blue?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download Dataset"/>
-</a>
+[![Download Dataset](https://img.shields.io/badge/Download-Dataset-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1D4KKv-F4yp3KShRb4xFpIfqscYnsFq1z/view?usp=drive_link)
 
 </div>
 
