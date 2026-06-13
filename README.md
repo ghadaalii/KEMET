@@ -311,10 +311,11 @@ Selected dimensions were further normalized to reduce redundancy and improve mai
 ---
 
 ## 🏗️ Warehouse Architecture
+<div align="center">
 
-> Full warehouse diagram is available inside the DWH folder.
+![Data Warehouse Diagram](DWH/DWH.png)
 
-![Warehouse](DWH/warehouse_diagram.png)
+</div>
 
 ---
 
