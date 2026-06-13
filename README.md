@@ -452,28 +452,48 @@ The project includes 20 interactive dashboards providing a comprehensive view of
 
 # 🤖 AI Analytics Chatbot
 
-An AI-powered analytics assistant was developed to allow users to interact with museum data using natural language.
+The KEMET AI Analytics Chatbot enables users to interact with museum analytics using natural language in both Arabic and English.
+
+The chatbot is connected directly to the museum database and provides real-time analytical insights, KPI exploration, and business intelligence support.
 
 ---
 
-## Features
+## ✨ Features
 
 - Arabic & English Support
-- Revenue Queries
-- Visitor Analytics
+- Revenue & KPI Queries
+- Visitor Insights
 - Museum Performance Analysis
 - Dashboard Navigation Assistance
-- KPI Exploration
 - Real-Time Data Retrieval
+- Interactive Business Analytics
 
 ---
 
-## Technologies
+## 🛠️ Technologies
 
 - Node.js
 - Express.js
 - SQL Server
 - REST APIs
+
+---
+
+## 🎥 Chatbot Demo
+
+<div align="center">
+
+<a href="https://drive.google.com/file/d/1bTt4nlvZVlariuJz3fClrvxclr7rLozV/view" target="_blank">
+
+![Watch Demo](https://img.shields.io/badge/▶%20Watch%20Chatbot%20Demo-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)
+
+</a>
+
+</div>
+
+> Click the button above to watch the chatbot demonstration video.
+
+---
 
 ---
 
