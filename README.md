@@ -504,7 +504,7 @@ Supports bilingual conversations, allowing users to interact seamlessly in both 
 ### 🔐 Secure Admin Authentication
 
 <p align="center">
-  <img src="Chatbot/Chatbot2.jpeg" width="75%">
+  <img src="Chatbot/adminAccess.jpeg" width="75%">
 </p>
 
 Role-based authentication ensures secure access to administrative analytics and business intelligence features.
